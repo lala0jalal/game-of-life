@@ -12,7 +12,7 @@ import org.springframework.web.servlet.ModelAndView;
 import com.wakaleo.gameoflife.domain.Universe;
 
 @Controller
-@RequestMapping("/game")
+@RequestMapping"/game")
 public class GameController {
 
     Random randomGenerator = new Random();
